@@ -29,13 +29,15 @@ Place the files in a folder with just the MD file and navigate to it in your ter
 
 Then, run this initially to test: 
 
-,,,
+
+```
 for f in *; do t=$(echo $f | sed -E 's/[-. md]//g'); echo touch -t $t "$f"; done
-,,,
+```
 
 Then run this to actually change all the files at once:
-,,,
+
+```
 for f in *; do t=$(echo $f | sed -E 's/[-. md]//g'); touch -t $t "$f"; done
-,,,
+```
 
 Source: [macos - Batch command to change each file's creation date to match the information in the file name - Ask Different](https://apple.stackexchange.com/questions/245373/batch-command-to-change-each-files-creation-date-to-match-the-information-in-th)
