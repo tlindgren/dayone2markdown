@@ -1,7 +1,7 @@
 # dayone2markdown
 Converting DayOne journals into markdown files
 
-Work in progress.
+Forked from: [ploum/dayone2markdown: Converting DayOne journals into markdown files](https://github.com/ploum/dayone2markdown)
 
 ## usage
 
